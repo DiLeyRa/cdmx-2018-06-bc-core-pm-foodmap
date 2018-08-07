@@ -8,3 +8,5 @@ document.addEventListener('DOMContentLoaded', () =>{
         content.style.display = 'block';
     },time)
 })
+
+

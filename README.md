@@ -1,3 +1,16 @@
+## Instalación
+
+Para poder interactuar con la pagina de Food-Map es necesario acceder a la siguiente pagina [link](https://dileyra.github.io/cdmx-2018-06-bc-core-pm-foodmap/src/index.html)
+, en ella el usuario podra acceder a información de diferentes restaurantes existentes en México.
+
+## Objetivo
+
+Crear una pagina web donde el usuario pueda acceder a información de los restaurantes más cercanos mediante un filtro.
+
+## Proto-Usuario
+
+Aldrin de 23 años de edad de nacionalidad chilena se acaba de mudar a la ciudad de México y no conoce mucho sobre la ciudad y sobre su comida, el ha solicitado a nuestro equipo de desarrollo una app la cual pueda ayudarlo buscando los restaurantes más cercanos a su ubicación y a su vez que pueda filtrarlos por el tipo de comida que desea consumir.
+
 #  F O O D M A P
 
 Crea una web-app que a través de un input pueda filtrar los restaurantes
