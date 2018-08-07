@@ -5,22 +5,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="load.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div id="logo" class="logo">
-        Food-<span style="color: saddlebrown;">Map</span>
-    </div>
     <div id="loader" class="loader">Loading...</div>
     <!--Contenido de la pagina-->
     <div id="content" class="content">
-        <h1>Bienvenido</h1>
+        <div>
+           <nav class="navbar navbar-light bg-light justify-content-between">
+                <a class="navbar-brand">
+                    <div id="logo" class="logo">
+                        Food-<span style="color: saddlebrown;">Map</span>
+                    </div>
+                </a>
+                    <form class="form-inline">
+                        <input id="search" class="form-control mr-sm-2" type="search" placeholder="¿anto-hambre?" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+            </nav>
+        </div>
+        <h1 id="bienvenido">Bienvenido</h1>
+        
+        <div>
+            <img src="images/mapa.png" class="img-fluid" alt="Responsive image">
+        </div>
+            <div class="comida">
+                    <button class="botonimagen1" data-toggle="modal" data-target="#exampleModal">
+                    </button>
+                    <button class="botonimagen2" data-toggle="modal" data-target="#exampleModall"></button>
+                    <button class="botonimagen3" data-toggle="modal" data-target="#exampleModalll"></button>
+                    <button class="botonimagen4" data-toggle="modal" data-target="#exampleModallll"></button>
+            </div>
+            <!--Modal 1-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Las Nazarenas</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="images/comida1.jpg" alt="" width="100" height="100">
+                          <h4>Reseña:</h4>
+                          <p>Gran lugar. ¡Teletransporta al Perú!. Comida con un sazón único, y su variedad de platillos obliga a regresar varias veces para degustar todos los platillos. 
+                          Pollo, cerdo ceviche en varias presentaciones, mis favoritos son el Carapulcra y el pollo con huancaína.</p>
+                          <p>Dirección: Tehuantepec 254, Roma Sur, 06760 Ciudad de México, CDMX
+                          Horario: 
+                          Cerrado ⋅ Horario de apertura: mié. 13:00
+                          Teléfono: 01 55 1596 4630</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        <!--Modal 2-->
+        <div class="modal fade" id="exampleModall" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Restaurante El Zorzal</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/comida2.jpg" alt="" width="100" height="100">
+                      <h4>Reseña:</h4>
+                      <p>Este lugar de comida argentina cumple con una muy buena relación costo-calidad, es decir, sirven cortes de muy buena manufactura a un precio razonable, además el local es muy agradable.
+                      Imperdible: empanadas horneadas con chimichurri.</p>
+                      <p>Dirección: Calle Alfonso Reyes 139, Hipódromo Condesa, 06170 Cuauhtémoc
+                      Horario: 
+                      Cerrado ⋅ Horario de apertura: mar. 13:00
+                      Teléfono: 01 55 5273 6023</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <!--Modal 3-->
+        <div class="modal fade" id="exampleModalll" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Restaurante Japonés ZEN Hipodrómo Condesa 217</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/comida3.jpg" alt="" width="100" height="100">
+                      <h4>Reseña:</h4>
+                      <p>Un pequeño restaurante japonés, con ese típico toque de barrio. La comida es bastante buena por el precio que pagas; no busques nada muy elaborado y ostentoso, aquí se come rico y sencillo por un precio justo. </p>
+                      <p>Dirección: Campeche 217, Hipódromo, 06100 Álvaro Obregón, CDMX
+                      Horario: 
+                      Abierto ⋅ Horario de cierre: 21:00
+                      Teléfono: 01 55 7098 2782</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <!--Modal 4-->
+        <div class="modal fade" id="exampleModallll" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Restaurante Los Angeles</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/comida3.jpg" alt="" width="100" height="100">
+                      <h4>Reseña:</h4>
+                      <p>Restaurant tipo fonda,  comida corrida con diferentes guisados,  hay tres menús a elegir el del día el ejecutivo y no recuerdo como se llama el último, cada uno cuenta con tres tiempos lo que cambia es el guisado y por esto mismo el precio,  el agua es de fruta y te dan la que desees sin costo extra,  buen sabor, los costos van de 65 a 120, también hay comida a la carta.</p>
+                      <p>Dirección: Anáhuac 16, Roma Sur, 06760 Cuahtemoc, CDMX
+                            Horario: 
+                            Cierra pronto: 19:00 ⋅ Horario de apertura: mar. 08:30
+                            Teléfono: 01 55 5574 1680</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
     </div>
   <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
   type="text/javascript"></script>
   <script src="firebase.js"></script>
+  <!--Bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="app.js"></script>
 </body>
 </html>

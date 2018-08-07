@@ -1,5 +1,4 @@
 *{
-    background-color: rgb(247, 136, 72);
     color: black;
 }
 .logo{
@@ -13,3 +12,54 @@
 #content{
     display: none;
 }
+img{
+    display:block;
+    margin:auto;
+}
+#btnSearch{
+    background-color: rgb(238, 171, 27);
+    border-color: white;
+    font-size: 1.5em;
+}
+#search{
+    background-color: white;
+    color: #333333;
+    font-size: 1.5em;
+    
+}
+#bienvenido{
+    text-align: center;
+    margin: 5%;
+}
+.botonimagen1{
+    background-image:url(images/comida1.jpg);
+    height:200px;
+    width:200px;
+    background-position:center;
+    margin: 4%;
+  }
+  .botonimagen2{
+    background-image:url(images/comida2.jpg);
+    height:200px;
+    width:200px;
+    background-position:center;
+    margin: 4%;
+  }
+  .botonimagen3{
+    background-image:url(images/comida3.jpg);
+    height:200px;
+    width:200px;
+    background-position:center;
+    margin: 4%;
+  }
+  .botonimagen4{
+    background-image:url(images/comida4.jpg);
+    height:200px;
+    width:200px;
+    background-position:center;
+    margin: 4%;
+  }
+  .comida{
+    display:block;
+    margin:auto;
+  }
